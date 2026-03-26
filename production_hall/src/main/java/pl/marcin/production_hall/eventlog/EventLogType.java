@@ -1,0 +1,14 @@
+package pl.marcin.production_hall.eventlog;
+
+public enum EventLogType {
+    ASSIGNMENT_STARTED,
+    ASSIGNMENT_ENDED,
+    WORK_ORDER_CREATED,
+    WORK_ORDER_STARTED,
+    WORK_ORDER_PAUSED,
+    WORK_ORDER_DONE,
+    WORK_ORDER_CANCELLED,
+    MACHINE_FAILURE,
+    MACHINE_RESUMED,
+    INFO
+}
